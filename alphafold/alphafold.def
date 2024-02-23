@@ -84,7 +84,7 @@ chmod u+s /sbin/ldconfig.real
 
 # create scratch folder to be bound to scratch on Sol 
 mkdir -p /scratch
-
+mkdir -p /data
 
 # We need to run `ldconfig` first to ensure GPUs are visible, due to some quirk
 # with Debian. See https://github.com/NVIDIA/nvidia-docker/issues/1399 for
